@@ -1,7 +1,7 @@
 {
   "name": "zeroslope-v2-react",
   "version": "1.0.0",
-  "description": "React 17 / Routing / Bootstrap 4 / Redux / Context",
+  "description": "",
   "keywords": [],
   "main": "src/index.jsx",
   "dependencies": {
@@ -14,18 +14,16 @@
     "redux": "4.0.5"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
+    "typescript": "3.3.3",
+    "@types/jasmine": "~2.8.8",
+    "protractor": "~5.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "e2e": "ng e2e"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
 }
